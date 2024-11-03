@@ -1,0 +1,39 @@
+# Variable 'python.version' was defined in the Variables tab
+trigger:
+  branches:
+    include:
+    - refs/heads/main
+name: $(date:yyyyMMdd)$(rev:.r)
+jobs:
+- job: Phase_1
+  displayName: Build and Test
+  pool:
+    vmImage: ubuntu-latest
+  steps:
+  - checkout: self
+    fetchDepth: 1
+  - task: UsePythonVersion@0
+    displayName: Use Python 3.11
+    inputs:
+      versionSpec: 3.11
+  - task: CmdLine@2
+    displayName: Install dependencies
+    inputs:
+      script: python -m pip install --upgrade pip && pip install -r requirements.txt
+  - task: CmdLine@2
+    displayName: pytest
+    inputs:
+      script: pip install pytest && pytest test_server.py --doctest-modules --junitxml=junit/test-results.xml
+  - task: PublishTestResults@2
+    displayName: Publish Test Results **/test-results.xml
+    inputs:
+      testResultsFiles: '**/test-results.xml'
+      testRunTitle: Python $(python.version)
+  - task: ArchiveFiles@2
+    displayName: Archive $(System.DefaultWorkingDirectory)
+    inputs:
+      rootFolderOrFile: $(System.DefaultWorkingDirectory)
+      archiveFile: ' $(Build.ArtifactStagingDirectory)/$(Build.BuildId)-$(python.version).zip'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'
+...
