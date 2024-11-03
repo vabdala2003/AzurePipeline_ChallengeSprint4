@@ -42,9 +42,10 @@ GO
 # Endpoints e Exemplos de Requisições
 
 ## Requisições POST
+Base: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis
 
 ### Clientes
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes`
+- **URL**: `/clientes`
 - **Exemplo JSON**:
   ```json
   {
@@ -57,7 +58,7 @@ GO
   ```
 
 ### Telefones
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones`
+- **URL**: `/telefones`
 - **Exemplo JSON**:
   ```json
   {
@@ -69,23 +70,23 @@ GO
   ```
   
 ### Produtos
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos`
+- **URL**: `/produtos`
 - **Exemplo JSON**:
   ```json
   {
-    "nm_produto": "Celular X",
-    "ds_categoria": "Eletrônicos",
-    "nr_preco": 1999.99,
+    "nm_produto": "Casaco",
+    "ds_categoria": "Vestuário",
+    "nr_preco": 120.50,
     "st_produto": "D",
-    "ds_produto": "Smartphone com 128GB e 6GB RAM",
-    "nr_tamanho": "6.5 polegadas"
+    "ds_produto": "Casaco Sweater Max",
+    "nr_tamanho": "GG"
   }
   ```
 
 ## Requisições PUT
 
 ### Clientes
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes/1`
+- **URL**: `/clientes/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -98,7 +99,7 @@ GO
   ```
 
 ### Telefones
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones/1`
+- **URL**: `/telefones/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -110,25 +111,25 @@ GO
   ```
   
 ### Produtos
-- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos/1`
+- **URL**: `/produtos/1`
 - **Exemplo JSON**:
   ```json
   {
-    "nm_produto": "Notebook Y",
-    "ds_categoria": "Eletrônicos",
-    "nr_preco": 3500.00,
+    "nm_produto": "Camiseta",
+    "ds_categoria": "Vestuário",
+    "nr_preco": 78.00,
     "st_produto": "I",
-    "ds_produto": "Notebook com 512GB SSD e 16GB RAM",
-    "nr_tamanho": "14 polegadas"
+    "ds_produto": "Camiseta estampa Oakley",
+    "nr_tamanho": "M"
   }
   ```
 
 ### Requisições GET
-- **Clientes**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes
-- **Telefones**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones
-- **Produtos**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos
+- **Clientes**: /clientes
+- **Telefones**: /telefones
+- **Produtos**: /produtos
 
 ### Requisições DELETE
-- **Clientes**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes/1
-- **Telefones**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones/1
-- **Produtos**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos/1
+- **Clientes**: /clientes/1
+- **Telefones**: /telefones/1
+- **Produtos**: /produtos/1
