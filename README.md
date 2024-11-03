@@ -103,7 +103,7 @@ Base: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis
 - **Exemplo JSON**:
   ```json
   {
-    "id_cliente": 2,
+    "id_cliente": 1,
     "nr_telefone": 998877665,
     "nr_ddd": 21,
     "ds_telefone": "Comercial"
@@ -130,6 +130,6 @@ Base: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis
 - **Produtos**: /produtos
 
 ### Requisições DELETE
-- **Clientes**: /clientes/1
 - **Telefones**: /telefones/1
+- **Clientes**: /clientes/1
 - **Produtos**: /produtos/1
