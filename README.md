@@ -37,7 +37,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
 ## Requisições POST
 
 ### Clientes
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/clientes`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes`
 - **Exemplo JSON**:
   ```json
   {
@@ -50,7 +50,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
   ```
 
 ### Telefones
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/telefones`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones`
 - **Exemplo JSON**:
   ```json
   {
@@ -62,7 +62,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
   ```
   
 ### Produtos
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/produtos`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos`
 - **Exemplo JSON**:
   ```json
   {
@@ -78,7 +78,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
 ## Requisições PUT
 
 ### Clientes
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/clientes/1`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -91,7 +91,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
   ```
 
 ### Telefones
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/telefones/1`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -103,7 +103,7 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
   ```
   
 ### Produtos
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/produtos/1`
+- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -117,11 +117,11 @@ sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azur
   ```
 
 ### Requisições GET
-- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/clientes
-- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/telefones
-- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/produtos
+- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes
+- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones
+- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos
 
 ### Requisições DELETE
-- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/clientes/1
-- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/telefones/1
-- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/produtos/1
+- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes/1
+- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones/1
+- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos/1
