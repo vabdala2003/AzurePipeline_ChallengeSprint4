@@ -44,7 +44,7 @@ GO
 ## Requisições POST
 
 ### Clientes
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes`
 - **Exemplo JSON**:
   ```json
   {
@@ -57,7 +57,7 @@ GO
   ```
 
 ### Telefones
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones`
 - **Exemplo JSON**:
   ```json
   {
@@ -69,7 +69,7 @@ GO
   ```
   
 ### Produtos
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos`
 - **Exemplo JSON**:
   ```json
   {
@@ -85,7 +85,7 @@ GO
 ## Requisições PUT
 
 ### Clientes
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes/1`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -98,7 +98,7 @@ GO
   ```
 
 ### Telefones
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones/1`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -110,7 +110,7 @@ GO
   ```
   
 ### Produtos
-- **URL**: `http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos/1`
+- **URL**: `https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos/1`
 - **Exemplo JSON**:
   ```json
   {
@@ -124,11 +124,11 @@ GO
   ```
 
 ### Requisições GET
-- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes
-- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones
-- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos
+- **Clientes**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes
+- **Telefones**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones
+- **Produtos**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos
 
 ### Requisições DELETE
-- **Clientes**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/clientes/1
-- **Telefones**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/telefones/1
-- **Produtos**: http://jarvisfastapiejamb5h7e6chc9ar.eastus201.azurewebsites.net/jarvis/produtos/1
+- **Clientes**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/clientes/1
+- **Telefones**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/telefones/1
+- **Produtos**: https://jarvisfastapi-ejamb5h7e6chc9ar.eastus2-01.azurewebsites.net/jarvis/produtos/1
