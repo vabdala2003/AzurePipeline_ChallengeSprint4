@@ -31,6 +31,13 @@ Para verificar a persistência dos dados em nuvem, você pode executar o seguint
 ```bash
 sqlcmd -S jarvisSprint4Server.database.windows.net -d jarvisSprint4Banco -U azureadmin -P rootpwSprint4
 ```
+Para checar o nome de todas as tabelas:
+
+```bash
+SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE =
+'BASE TABLE';
+GO
+```
 
 # Endpoints e Exemplos de Requisições
 
